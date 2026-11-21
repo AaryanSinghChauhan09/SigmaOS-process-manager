@@ -5,7 +5,11 @@ edition = "2021"
 license = "Apache-2.0"
 
 [dependencies]
+log = "0.4"
+sigmaos-component-core = { git = "https://github.com/AaryanSinghChauhan09/SigmaOS-component-core" }
 
 [lib]
 name = "sigmaos_process_manager"
 path = "src/lib.rs"
+
+log = "0.4"

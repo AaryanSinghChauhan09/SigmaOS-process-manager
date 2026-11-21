@@ -122,3 +122,6 @@ impl Component {
         self.name
     }
 }
+
+/// Module extracted from the SigmaOS-system monolith.
+pub mod process_supervisor;
